@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Platform</title>
+    <link rel="stylesheet" href="Pet.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pet Adoption Platform</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#adoption">Adoption</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     
+    <section class="Login-form">
+        <h2>Login</h2>
+        <form action="submit_inquiry.php" method="POST">
+            <label for="name">User Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Password</label>
+            <input type="Password" id="Password" name="Password" required>
+            <button type="submit" class="btn">Login</button>
+            <button type="Signup" class="btn">Signup</button>
+
+            <a href="#forget" class="forget">Forget password</a>
+        </form>
+    </section>
+
+    <main>
+        <!-- Your main content sections here -->
+    </main>
+
+   
+</body>
+</html>
